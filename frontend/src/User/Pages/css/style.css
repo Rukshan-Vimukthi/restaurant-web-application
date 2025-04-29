@@ -1,0 +1,67 @@
+.wooden-texture-section{
+    background: linear-gradient(45deg, #000, #0000), 
+    url("../../../assets/ChatGPT-Image-wooden-texture.png") -0px -10px / cover no-repeat;
+    color: white !important;
+}
+
+.hide-scroll-bar{
+    scrollbar-color: transparent !important;
+    scrollbar-arrow-color: transparent !important;
+    scrollbar-base-color: transparent !important;
+    scrollbar-track-color: transparent !important;
+    scrollbar-width: 2px !important;
+    scrollbar-face-color: transparent !important;
+}
+
+
+.fade-in{
+    animation-name: fade-in;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+.popup-card{
+    transform: scale(0.5);
+    opacity: 0;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.6s ease-out;
+}
+
+.popup{
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+@keyframes fade-in {
+    from{
+        /* opacity: 0.5; */
+        margin-top: 10px;
+    }
+
+    to{
+        /* opacity: 1.0; */
+        margin-top: 0px;
+    }
+}
+
+.type-animation{
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-name: type;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 100%;
+    }
+}
