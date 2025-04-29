@@ -1,6 +1,5 @@
 import {ReactElement} from "react";
 import { Card, CardBody, CardHeader, Col, Nav, NavItem, NavLink, Row, TabContainer, TabContent, TabPane } from "react-bootstrap";
-import { CardHeading } from "react-bootstrap-icons";
 
 
 export default function RestaurantManagerControlPanel(): ReactElement{
