@@ -14,7 +14,7 @@ import RestaurantManagerControlPanel from './Staff/RestaurantManager'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/restaurant-web-application'>
       <Routes>
         <Route path='/' element={<UserBase element={<Home />} />}/>
         <Route path='/register' element={<UserBase element={<Register />} />}/>
