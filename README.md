@@ -13,17 +13,18 @@ npm run dev
 
 ## 📁 Project Structure
 ```
-frontend/
-├── dist/ # Build files
-├── public/ # Static files like index.html, icons, etc.
-├── src/ # Main source code
-│ ├── assets/ # Images, fonts, and other assets
-│ ├── Staff/ # Pages that Staff uses.
-│ ├── types/ # Custom Types definitions
-│ ├── User/ # Custom React hooks
-│ |    ├── Components/ # Components used in pages that use by users
-│ |    └── Pages/ # Pages that use by customers
-│ |         ├── css/ # CSS files used by publicly accessible pages
+📁assets/ # built assets. put this folder here to use by github pages
+📁frontend/
+├── 📁dist/ # Build files
+├── 📁public/ # Static files like index.html, icons, etc.
+├── 📁src/ # Main source code
+│ ├── 📁assets/ # Images, fonts, and other assets
+│ ├── 📁Staff/ # Pages that Staff uses.
+│ ├── 📁types/ # Custom Types definitions
+│ ├── 📁User/ # Custom React hooks
+│ |    ├── 📁Components/ # Components used in pages that use by users
+│ |    └── 📁Pages/ # Pages that use by customers
+│ |         ├── 📁css/ # CSS files used by publicly accessible pages
 │ |         ├── Home.jsx
 │ |         ├── Profile.jsx
 │ |         └── Register.jsx
@@ -32,6 +33,7 @@ frontend/
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts
+index.html # the file currently serving by github pages
 ```
 
 
