@@ -5,8 +5,9 @@ A modern web application that helps restaurants manage dine-in, takeaway, and de
 ## Installation
 
 ```bash
-git clone https://github.com/username/myapp.git
-cd myapp
+git clone https://github.com/Rukshan-Vimukthi/restaurant-web-application.git
+
+cd frontend
 npm install
 npm run dev
 ```
