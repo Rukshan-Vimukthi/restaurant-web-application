@@ -1,6 +1,6 @@
 import {ReactElement} from "react"
 import { Card, CardBody, CardHeader, Col, FormCheck, Nav, NavItem, NavLink, Row, TabContainer, TabContent, TabPane } from "react-bootstrap";
-import Order from "./components/Order";
+import Order from "../Components/Order";
 import "./css/style.css"
 import { TrashFill } from "react-bootstrap-icons";
 import { BiDevices } from "react-icons/bi";

@@ -1,6 +1,6 @@
 import {ReactElement} from "react"
 import { Col, Row } from "react-bootstrap";
-import { OrderType } from "../../../types/Types";
+import { OrderType } from "../../types/Types";
 
 export default function Order(props: OrderType): ReactElement {
     return (
