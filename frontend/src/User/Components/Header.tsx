@@ -5,7 +5,9 @@ export default function Header(){
         <Navbar expand={"md"} style={{height: "50px"}} className="bg-black text-white">
             <Container>
                 <NavbarBrand>
-                    <div style={{width: "200px"}}></div>
+                    <div style={{width: "200px"}}>
+                        
+                    </div>
                 </NavbarBrand>
                 <NavbarCollapse>
                     <Nav className="d-flex flex-column flex-md-row gap-md-4 gap-0">

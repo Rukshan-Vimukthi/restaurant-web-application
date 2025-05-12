@@ -17,10 +17,10 @@ createRoot(document.getElementById('root')!).render(
     <BrowserRouter basename='/restaurant-web-application'>
       <Routes>
         <Route path='/' element={<UserBase element={<Home />} />}/>
-        <Route path='/register' element={<UserBase element={<Register />} />}/>
-        <Route path='/profile' element={<UserBase element={<Profile />} />}/>
-        <Route path='/staff/login' element={<UserBase element={<StaffLogin />} />}/>
-        <Route path='/restaurant-manager/control-panel' element={<RestaurantManagerControlPanel />}/>
+        <Route path='/restaurant-web-application/register' element={<UserBase element={<Register />} />}/>
+        <Route path='/restaurant-web-application/profile' element={<UserBase element={<Profile />} />}/>
+        <Route path='/restaurant-web-application/staff/login' element={<UserBase element={<StaffLogin />} />}/>
+        <Route path='/restaurant-web-application/restaurant-manager/control-panel' element={<RestaurantManagerControlPanel />}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
